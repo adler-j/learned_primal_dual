@@ -1,5 +1,3 @@
-"""Partially learned gradient descent scheme for ellipses."""
-
 import os
 import adler
 adler.util.gpu.setup_one_gpu()
