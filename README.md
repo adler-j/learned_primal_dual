@@ -19,9 +19,17 @@ The pre-trained networks are currently under finalization and will be released s
 
 Dependencies
 ------------
-The code is currently based on an experimental version of [ODL](https://github.com/odlgroup/odl/pull/972), so that specific branch needs to be used for the code to work.
+The code is currently based on an experimental version of [ODL](https://github.com/odlgroup/odl/pull/972), so that specific branch needs to be used for the code to work. It can be most easily installed by running 
 
-The code also requires the utilit library [adler](https://github.com/adler-j/adler).
+```bash
+$ pip install https://github.com/adler-j/odl/archive/tensorflow_support.zip
+```
+
+The code also requires the utility library [adler](https://github.com/adler-j/adler) which can be installed via
+
+```bash
+$ pip install https://github.com/adler-j/adler/archive/master.zip
+```
 
 Contact
 -------
