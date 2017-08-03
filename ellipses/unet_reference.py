@@ -23,7 +23,7 @@ space = odl.uniform_discr([-64, -64], [64, 64], [size, size],
                           dtype='float32')
 
 
-geometry = odl.tomo.parallel_beam_geometry(space, angles=30)
+geometry = odl.tomo.parallel_beam_geometry(space, num_angles=30)
 ray_trafo = odl.tomo.RayTransform(space, geometry)
 pseudoinverse = odl.tomo.fbp_op(ray_trafo,
                                 filter_type='Hann')
