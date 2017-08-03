@@ -7,6 +7,7 @@ from adler.tensorflow import prelu, cosine_decay
 import tensorflow as tf
 import numpy as np
 import odl
+import odl.contrib.tensorflow
 
 np.random.seed(0)
 name = 'learned_primal_noop'

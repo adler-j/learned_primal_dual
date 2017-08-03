@@ -9,6 +9,7 @@ from adler.tensorflow import prelu, psnr
 import tensorflow as tf
 import numpy as np
 import odl
+import odl.contrib.tensorflow
 from mayo_util import DATA_FOLDER, FileLoader
 
 np.random.seed(0)

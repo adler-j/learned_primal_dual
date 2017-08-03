@@ -7,6 +7,7 @@ from adler.tensorflow import cosine_decay, psnr, reference_unet
 import tensorflow as tf
 import numpy as np
 import odl
+import odl.contrib.tensorflow
 from mayo_util import FileLoader, DATA_FOLDER
 
 np.random.seed(0)

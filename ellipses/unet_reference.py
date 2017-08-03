@@ -10,6 +10,7 @@ from adler.tensorflow import cosine_decay, reference_unet
 import tensorflow as tf
 import numpy as np
 import odl
+import odl.contrib.tensorflow
 
 np.random.seed(0)
 name = os.path.splitext(os.path.basename(__file__))[0]
