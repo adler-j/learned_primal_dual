@@ -91,7 +91,7 @@ callback = odl.solvers.CallbackPrintIteration()
 
 with odl.util.Timer('runtime of iterative algorithm'):
     # Run the algorithm
-    odl.solvers.chambolle_pock_solver(
+    odl.solvers.pdhg(
         x, f, g, op, tau=tau, sigma=sigma, niter=niter, gamma=gamma,
         callback=callback)
 

@@ -10,7 +10,7 @@ import odl
 import odl.contrib.tensorflow
 
 np.random.seed(0)
-name = 'learned_chambolle_pock'
+name = 'learned_pdhg'
 
 sess = tf.InteractiveSession()
 
