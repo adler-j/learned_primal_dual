@@ -96,7 +96,6 @@ with odl.util.Timer():
                           feed_dict={x_true: x_true_arr_validate,
                                      x_0: x_arr_validate,
                                      is_training: False})
-raise Exception
 
 import matplotlib.pyplot as plt
 from skimage.measure import compare_ssim as ssim
