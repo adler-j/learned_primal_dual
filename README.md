@@ -1,7 +1,7 @@
 Learned Primal-Dual Reconstruction
 ==================================
 
-This repository contains the code for the article "Learned Primal-Dual Reconstruction".
+This repository contains the code for the article "[Learned Primal-Dual Reconstruction](https://arxiv.org/abs/1707.06474)".
 
 Contents
 --------
