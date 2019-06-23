@@ -17,7 +17,7 @@ epsilon = 0.0001
 # Create ODL data structures
 size = 512
 space = odl.uniform_discr([-128, -128], [128, 128], [size, size],
-                          dtype='float32', weighting='const')
+                          dtype='float32', weighting=1.0)
 
 # Tomography
 # Make a fan beam geometry with flat detector
